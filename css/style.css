@@ -636,14 +636,14 @@
                 background-color: var(--main-background);
             }
             
-            .button-icon {
+            .button-close__icon {
                 width: 11px;
                 height: 11px;
                 fill: var(--main-text);
             }
             
-            .button-icon:hover,
-            .button-close:focus .button-icon {
+            .button-close__icon:hover,
+            .button-close:focus .button-close__icon {
                 fill: var(--accent-color);
             }
             
