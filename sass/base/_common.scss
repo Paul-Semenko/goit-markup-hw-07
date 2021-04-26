@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: var(--main-text);
+    background-color: var(--main-background);
+    font-family: var(--main-font);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.priorities__text,
+.priorities__title,
+.services__title,
+.services__text,
+.team-section__title,
+.team-member,
+.position {
+    letter-spacing: 0.03em;
+}
+
+.site-nav,
+.contacts,
+.btn-section,
+.portfolio,
+.footer-contacts,
+.priorities__items,
+.services__row,
+.team-section__list,
+.list {
+    list-style: none;
+}
+
+.footer-contacts__link,
+.footer-address__location,
+.box__text,
+.btn-section__buttons,
+.header__logo {
+    letter-spacing: 0.03em;
+}
+
+.site-nav .menu__link,
+.contacts__link,
+.footer-address__location,
+.footer-contacts__link {
+    font-size: 14px;
+}
+
+.header__logo,
+.site-nav .menu__link,
+.contacts__link {
+    text-decoration: none;
+}
+
+.footer-address__location,
+.footer-contacts__link {
+    line-height: 1.72;
+}
+
+.box__title,
+.section-intro__title,
+.section-intro__button {
+    letter-spacing: 0.06em;
+}

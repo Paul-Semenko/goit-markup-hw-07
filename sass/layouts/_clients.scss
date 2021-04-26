@@ -1,0 +1,27 @@
+.clients-logo__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--social-logo-color);
+    border-radius: 4px;
+    width: 170px;
+    height: 90px;
+    transform: scale(1, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 300ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1)300ms;
+    &:hover,
+    &:focus {
+        border: 5px outset var(--accent-color);
+        transform: scale(1.30, 1.30);
+    }
+    &:hover .clients-logo__icon,
+    &:focus .clients-logo__icon {
+        fill: var(--accent-color);
+        transform: scale(1.45, 1.45);
+    }
+}
+
+.clients-logo .clients-logo__icon {
+    fill: var(--social-logo-color);
+    transform: scale(1, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 300ms;
+}

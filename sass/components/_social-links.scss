@@ -1,0 +1,13 @@
+.social-links {
+    display: block;
+    margin-right: 100px;
+    &__title {
+        display: block;
+        margin-bottom: 20px;
+        color: var(--main-background);
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+}

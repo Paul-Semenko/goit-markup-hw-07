@@ -1,0 +1,26 @@
+.subscribe {
+    display: flex;
+    align-items: baseline;
+}
+
+.form-sign-up {
+    &__element {
+        display: inline-flex;
+        width: 360px;
+        margin: 0;
+        padding: 15px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        background-color: transparent;
+        &::placeholder {
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.03em;
+            color: var(--links-color);
+        }
+    }
+}
+
+.form-sign-up:focus-within>.form-sign-up__element {
+    color: var(--main-background);
+}

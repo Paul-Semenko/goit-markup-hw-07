@@ -1,0 +1,72 @@
+.social-icons {
+    display: flex;
+}
+
+.social-icons__item+.social-icons__item {
+    margin-left: 10px;
+}
+
+.social-icons__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    transform: scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        border-radius: 50%;
+        background-color: var(--accent-color);
+        transform: scale(1.5);
+    }
+    &:hover .social-icons__image,
+    &:focus .social-icons__image {
+        fill: var(--main-background);
+    }
+}
+
+.social-icons .social-icons__image {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icons__image {
+    fill: var(--social-logo-color);
+}
+
+.social-icons__contacts .social-icons__image--discoloring {
+    fill: var(--main-background);
+}
+
+.social-icons__contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--footer-links-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        animation: 1500ms ease 0s normal none 1 running pulse;
+    }
+    @keyframes pulse {
+        0% {
+            transform: scaleX(1) scaleY(1);
+        }
+        10% {
+            transform: scaleX(0.85) scaleY(0.85);
+        }
+        20% {
+            transform: scaleX(1) scaleY(1);
+        }
+        30% {
+            transform: scaleX(0.85) scaleY(0.85);
+        }
+        40% {
+            transform: scaleX(1) scaleY(1);
+        }
+    }
+}

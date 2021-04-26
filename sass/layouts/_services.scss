@@ -1,0 +1,23 @@
+.services-box {
+    position: relative;
+}
+
+.box-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.services__text {
+    margin: 0 0;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-background);
+}
