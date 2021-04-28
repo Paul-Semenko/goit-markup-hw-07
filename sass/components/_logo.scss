@@ -1,6 +1,8 @@
 .header__logo {
     display: block;
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     color: var(--main-text);
     font-family: var(--secondary--font);
     font-weight: bold;
@@ -24,5 +26,6 @@
 .header__logo--repositioning {
     display: inline-block;
     margin: 0;
+    padding: 0;
     margin-bottom: 20px;
 }

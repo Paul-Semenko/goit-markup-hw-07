@@ -64,7 +64,7 @@
  .contacts__link {
      color: var(--paragraph-color);
      transform: scale(1, 1);
-     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: transform var(--animation);
      &:hover,
      &:focus {
          color: var(--accent-color);
@@ -81,7 +81,7 @@
      margin-right: 10px;
      fill: currentColor;
      transform: skewX( 0);
-     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: transform var(--animation), fill var(--animation);
  }
  
  .site-nav,
